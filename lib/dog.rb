@@ -1,4 +1,4 @@
-requre 'pry'
+require 'pry'
 
 class Dog
   attr_reader :name
@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    binding.pry 
+    binding.pry
     @@all_dogs
   end
 end
