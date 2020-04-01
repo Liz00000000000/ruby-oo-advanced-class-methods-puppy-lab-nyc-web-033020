@@ -2,7 +2,7 @@ require 'pry'
 
 class Dog
   attr_reader :name
-  @@all_dogs = [ ]
+  @@all = [ ]
   def initialize(name)
     @name = name
     @@all << self
