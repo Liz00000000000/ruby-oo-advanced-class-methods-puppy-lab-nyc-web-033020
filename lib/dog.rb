@@ -20,6 +20,6 @@ class Dog
   end
 
   def self.print_all
-    pp @@names 
+    @@names 
   end
 end
