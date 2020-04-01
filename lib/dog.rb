@@ -3,6 +3,7 @@ require 'pry'
 class Dog
   attr_reader :name
   @@all = [ ]
+  @@names = [ ]
   def initialize(name)
     @name = name
     @@all << self
