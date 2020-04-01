@@ -9,6 +9,7 @@ class Dog
   end
 
   def self.all
+    bindin.pry 
     @@all_dogs
   end
 end
